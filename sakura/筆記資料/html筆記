@@ -1,0 +1,56 @@
+https://github.com/wayne1894/uiuxweb/blob/main/README.md
+
+!
+內容標籤-頁首header  頁中mine  頁尾footer  標籤的一種(部分)section 標籤的一種(導覽)nav
+群組標籤-id  class
+
+標題文字-H1  H2  H3  H4  H5  H6
+內容文字-p  粗體b  斜體i 強調文字strong  塊級元素(斷行)div  行內元素(水平)span
+換行br  水平線hr
+空格&nbsp
+
+超連結a+網址  插入圖片img  超連結插入圖片a+網址+img  連結資料夾link+資料夾名稱
+嵌入影音iframe+網址
+
+表格標題table+th  表格行table+tr  表格數據table+td
+網頁導航結構nav+ul+li or ol
+開頭空格-ul+ol  開頭標點ul+li
+
+
+
+輸入框input
+input使用方式:
+1、<form action="/formprocess.php" method="post">表單內容</form>
+2、<input type="text">
+3、<input type="password">
+4、<input type="checkbox">
+5、<input type="radio">
+6、<input type="submit">
+
+使用方法:<input id="header_check" type="checkbox">
+         <label for="header_check">漢堡排</label>
+
+textarea
+select
+option
+按鈕button
+
+<!-- 這一段不會被看見 –> 
+<  &lt;
+>  &gt;
+"  &quot;
+© &copy;
+
+
+meta
+meta使用方式:
+<meta property="og:title" content="A Basic HTML5 Template">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+<meta property="og:description" content="A simple HTML5 Template for new projects.">
+<meta property="og:image" content="image.png">
+
+
+使用form表單時需在後方寫入action方便後端人員填入  例:<form action="">
+
+於form表單填入required可變更選項為必填  例:<input id="name" type="text" class="form-control" placeholder="*名字" name="name" required="">

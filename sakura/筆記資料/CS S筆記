@@ -1,0 +1,73 @@
+1、指定字型 → font-family
+2、字體大小 → font-size
+3、粗體 → font-weight
+4、斜體 → font-style
+5、底線 → text-decoration
+6、行高 → line-height
+7、文字間距 → letter-spacing
+8、文本對齊 → text-align  例:text-align: center; (文本對齊:居中)
+9、垂直對齊 → vertical-align
+
+1rem=16px 使用rem的好處是自體間距不會與字體大小一起改變 許多專業的工程師多使用rem
+
+1、文字顏色 → color : red
+2、背景顏色 → background-color: red 、background-color:rgba(0,0,0,0.5)
+3、不透明度 → opacity : 0.5
+4、背景圖片 → background-image:url(img/image.png)
+		      background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              background-image: linear-gradient(to right bottom, rgba(0, 0, 0,1), rgba(55, 65, 81,0.5)),url(img/bg.jpg);
+              background-image:linear-gradient(#cfdfee,#8da9cf)
+
+高度height  寬度width
+border方框   使用方法:border: 1px solid #8a8000;
+padding(內部撐開)
+display(使用flex需要注意)
+margin(如果框內範圍足夠會將對方推開)
+float(浮動元素)
+position: relative相對元素固定
+
+
+CSS常用單位:
+1、% 百分比
+2、px 像素
+3、em (字體寬) = 16px
+4、rem
+5、vh
+6、vw
+
+
+margin：邊距
+	margin-left : 10px ; margin-top : 10px; margin-bottom :15px;
+	margin : 20px 40px; //上下為20px 左右為40px;
+	margin: 5px 10px 15px 20px; //順時鐘方向 上右下左
+	margin : 5px //全部
+padding：內距
+	padding-left : 10px ; padding-top : 10px; padding-bottom :15px;
+border：邊線
+	border-left : 10px ; border-top : 10px; border-bottom :15px;
+	border : 2px solid red ;
+
+其他：
+position:relative; top:-4px
+
+
+
+margin-top: 20px; margin-bottom: 20px; 上下數值相同時文字置中也可寫入 margin 0 auto
+或在父層使用 text-align:center 可將 inline 或 inline-block 的內容置中
+
+
+網頁特效hover用法:
+.main>nav>ul>li>a.nav_item:hover{
+ background-color: #DCDDDD;
+ text-decoration: overline;
+ border: 1px solid red;
+ }
+.main>nav>ul>li>a.nav_item:hover .nav_text{
+ color: purple;
+
+
+電腦版與手機板切版
+1、@media (max-width:992px){}  //小於992px會執行的css
+2、@media (min-width:992px){}  //大於992px會執行的css

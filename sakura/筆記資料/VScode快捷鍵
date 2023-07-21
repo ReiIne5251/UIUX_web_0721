@@ -1,0 +1,8 @@
+1、專案變多了，新增工作區來放專案：檔案 → 將資料夾新增至工作區
+2、vscode 找檔案裡的文字 ctrl+f
+3、vscode 找全部的檔案裡的文字 ctrl+shift+h
+4、vscode 全部取代 ctrl+h
+5、vscode 找檔案 ctrl+shift+o
+6、vscode 程式下註解 (html、css、js 註解都適用)
+7、vscode Emmet 語法 → 教學 or google 搜尋 Emmet
+ctrl+/能夠對程式碼下註解(使該段程式碼失去作用)

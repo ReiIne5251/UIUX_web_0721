@@ -1,0 +1,18 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        }
+      }
+    }
+  }
+</script>
+
+flex-row -用於flex水平排列
+flex-col -用於flex垂直排列
+class="flex justify-center items-center" -垂直水平排列
+gap -用於調整區塊間的距離
+text-center -用於使文字置中

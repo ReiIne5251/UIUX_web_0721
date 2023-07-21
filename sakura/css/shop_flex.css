@@ -1,0 +1,28 @@
+/* flex排版 */
+
+
+.shop_content>.item_wrap{
+    border: 1px solid #8a8000;
+    padding: 15px;
+}
+.item_row{
+    display:flex
+}
+.item_left{
+    width: 20%;
+    width: 150px;
+    padding-right: 15px;
+    flex-grow: 1;
+}
+.item_mid{
+    width: 40%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.item_mid>div{
+    margin-top: auto;
+}
+.item_right{
+    width: 40%; 
+}
